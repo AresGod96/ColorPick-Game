@@ -1,0 +1,169 @@
+#menu {
+    -fx-background-image: url("assets/color.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 900 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#title {
+    -fx-font-weight: bold;
+    -fx-font-size: 90;
+    -fx-text-fill:  linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -fx-padding: 80, 0, 0, 0;
+}
+
+#intro {
+    -fx-font-size: 20;
+    -fx-text-fill: linear-gradient(to right, black, pink, blue, green, red);
+    -fx-text-alignment: center;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-font-family: sans-serif;
+}
+
+#author1 {
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-text-alignment: center;
+    -fx-font-family: "Courier New", sans-serif;
+}
+#author2 { 
+    -fx-font-size: 16;
+    -fx-text-alignment: center;
+    -fx-font-style: italic;
+    -fx-font-family: sans-serif;
+}
+
+#start-button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+#start-button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#start-button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#start-button Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+#quit-button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #39CCF0 0%, #4CB9DA 100%),
+        #64D8E5,
+        #64EFFF,
+        radial-gradient(center 50% 50%, radius 100%, #64EFFF, #5AD7E5);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+#quit-button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #39CCF0 0%, #4CB9DA 100%),
+        #64D8E5,
+        #64EFFF,
+        radial-gradient(center 50% 50%, radius 100%, #A6F7FF, #5AD7E5);
+}
+#quit-button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+#mode-button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #30EF69 0%, #269247 100%),
+        #5FCE80,
+        #8AF6AA,
+        radial-gradient(center 50% 50%, radius 100%, #8AF6AA, #76F09A);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+#mode-button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #30EF69 0%, #269247 100%),
+        #5FCE80,
+        #8AF6AA,
+        radial-gradient(center 50% 50%, radius 100%, #C4FFD6, #76F09A);
+}
+#mode-button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+#score-button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #EC2F36 0%, #C02A2F 100%),
+        #FF1E25,
+        #F93D43,
+        radial-gradient(center 50% 50%, radius 100%, #F93D43, #D42E33);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+#score-button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #EC2F36 0%, #C02A2F 100%),
+        #FF1E25,
+        #F93D43,
+        radial-gradient(center 50% 50%, radius 100%, #FF8D91, #D42E33);
+}
+#score-button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#back-button {
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-font-family: "Courier New", sans-serif;
+}
+
+#box {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+#wrong {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-font-family: "Courier New", sans-serif;
+}
+#correct {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00FF1A;
+    -fx-font-family: "Courier New", sans-serif;
+}
