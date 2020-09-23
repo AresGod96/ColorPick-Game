@@ -1,2 +1,2 @@
 # ColorPick-Game
-A simple game created with JavaFX
+A simple game created with JavaFX.
